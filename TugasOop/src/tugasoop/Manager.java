@@ -9,15 +9,7 @@ package tugasoop;
  *
  * @author hp
  */
-public class TugasOop {
-
-    /**
-     * @param args the command line arguments
-     */
-    
-    public static void main(String[] args) {
-        Manager krw = new Manager();
-        krw.masukKerja();
-    }
-    
+public class Manager extends Employee{
+        
+        
 }

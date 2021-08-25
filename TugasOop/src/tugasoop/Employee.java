@@ -9,15 +9,11 @@ package tugasoop;
  *
  * @author hp
  */
-public class TugasOop {
-
-    /**
-     * @param args the command line arguments
-     */
-    
-    public static void main(String[] args) {
-        Manager krw = new Manager();
-        krw.masukKerja();
+public class Employee{
+        String Id, nama, gender, email;
+        int gaji;
+        
+        public void masukKerja(){
+            System.out.println("Mohon untuk masuk kerja tepat waktu");
+        }
     }
-    
-}
